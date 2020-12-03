@@ -446,7 +446,7 @@ text-decoration: none; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url();
+  /* background-image: url(../img/power-plant-construction.jpg); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -668,7 +668,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../../IMAGES/242.jpg);
+  background-image: url(../img/contact.jpg);
 
 
 }
@@ -799,7 +799,7 @@ footer em {
   }
 
   .baner-content h1 {
-    font-size: 64px;
+    font-size: 50px;
   }
 
   .baner-content em {
@@ -1316,8 +1316,21 @@ height: 150px;}
     z-index: 1;
   }
   .baner-content h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
 
+.forms{
+  min-height: 70vh;
+  background-image: url(../img/power-plant-construction.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width:450px) {
+  .gform{
+    width: 100%;
+  }
+}
