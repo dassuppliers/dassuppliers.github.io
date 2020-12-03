@@ -533,7 +533,7 @@ h4, .h4 {
 
 .projects-content .item .text-content h4 {
   margin-top: 0px;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -1329,8 +1329,23 @@ height: 150px;}
   background-size: cover;
 }
 
+.product-img{
+ height: 250px;
+}
+.item{
+  padding: 10px;
+  background-color: #fff;
+}
+
 @media screen and (max-width:450px) {
   .gform{
     width: 100%;
   }
+}
+
+.tab-home{
+  /* background-image: url(../img/crane-construction-site.jpg); */
+}
+.home-image{
+  height: 400px;
 }
