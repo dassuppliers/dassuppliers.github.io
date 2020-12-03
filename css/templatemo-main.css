@@ -408,7 +408,7 @@ text-decoration: none; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner.webp);
 }
 
 .baner-content h1 {
@@ -1323,7 +1323,7 @@ height: 150px;}
 
 .forms{
   min-height: 70vh;
-  background-image: url(../img/power-plant-construction.jpg);
+  background-image: url(../img/power-plant-construction.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
